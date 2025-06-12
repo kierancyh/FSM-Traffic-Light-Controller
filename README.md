@@ -42,7 +42,7 @@ Transition Observations:
 Follow these steps to clone, simulate and synthesize the project
 
 ### 1. Clone the Repository
-git clone https://github.com/kierancyh/Traffic-Light-Controller.git
+git clone https://github.com/kierancyh/FSM-Traffic-Light-Controller.git
 
 ### 2. Open in Vivado
 **1. Launch Vivado 2024.2**    
