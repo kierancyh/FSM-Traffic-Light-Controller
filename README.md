@@ -18,10 +18,10 @@ The controller implements 5 traffic states using a Mealy-style FSM:
 ## Modules 
 
 ### Source
-**Traffic_Light.v** – Main FSM module with state register, Mealy logic, and counter for time control.
+**Traffic_Light.v** – Main FSM module utilising Mealy Logic with State Registers and counter for time control
 
 ### Testbench
-**tb_Traffic_Light.v** – Stimulates the FSM with clock, reset, and button inputs. Observes `traffic_light` and `pedestrian_light` outputs.
+**tb_Traffic_Light.v** – Stimulates  FSM with clock, reset and button inputs. Observes `traffic_light` and `pedestrian_light` outputs
 
 ## Tools Used:
 **Xilinx Nexys4 DDR** – FPGA implementation                                                                                           
@@ -39,7 +39,7 @@ Transition Observations:
 - Proper reversion to normal states after pedestrian cycle ends
 
 ## Quick Start Guide
-Follow these steps to clone, simulate, and (optionally) synthesize the project
+Follow these steps to clone, simulate and synthesize the project
 
 ### 1. Clone the Repository
 git clone https://github.com/kierancyh/Traffic-Light-Controller.git
@@ -78,7 +78,6 @@ Traffic-Light-Controller/
 │   └── Traffic_Light.v               # FSM implementation
 ├── testbench/
 │   └── tb_Traffic_Light.v            # Simulation testbench
-
 ```
 
 ## License
